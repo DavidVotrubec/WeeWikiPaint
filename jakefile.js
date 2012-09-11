@@ -1,4 +1,8 @@
 desc("Example description");
-task("example", function() {
+task("example", ["dependency"], function() {
    console.log("example task");
+});
+
+task("dependency", function() {
+    console.log("dependency run");
 });
