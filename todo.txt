@@ -1,0 +1,17 @@
+WeeWikiPaint
+
+MMF:
+- homepage
+- basic painting page
+
+User Stories:
+- Hello world | server
+- Hello world | client
+- support multi beowsers
+- marketing copy
+
+Engineerng task:
+- automated build
+- continous intergration
+- server-side testing
+- cient-side testing
