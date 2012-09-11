@@ -5,4 +5,5 @@ task("example", ["dependency"], function() {
 
 task("dependency", function() {
     console.log("dependency run");
+    console.log("dependency run");
 });
