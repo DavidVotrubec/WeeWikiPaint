@@ -1,9 +1,6 @@
-desc("Example description");
-task("example", ["dependency"], function() {
-   console.log("example task");
-});
+task("default", ["lint"]);
 
-task("dependency", function() {
-    console.log("dependency run");
-    console.log("dependency run");
+desc("Lint everything")
+task("lint", [], function() {
+   console.log("Lint code goes here");
 });
