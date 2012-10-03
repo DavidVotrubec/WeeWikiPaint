@@ -1,1 +1,1 @@
-node_modules/.bin/jake.cmd $*
+node_modules/.bin/jake $*
