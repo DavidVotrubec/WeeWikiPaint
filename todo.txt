@@ -15,3 +15,5 @@ Engineerng task:
 - continous intergration
 - server-side testing
 - cient-side testing
+
+test git in Ubuntu
