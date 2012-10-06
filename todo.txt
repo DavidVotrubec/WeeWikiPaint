@@ -15,3 +15,11 @@ Engineerng task:
 - continous intergration
 - server-side testing
 - cient-side testing
+
+Testing framework:
+- Choose testing framework (Nodeunit)
+- Abstract it
+- Swap out a different test framework to make sure it works. (Mocha)
+
+
+Add LICENCE.TXT
