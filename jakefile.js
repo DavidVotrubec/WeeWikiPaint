@@ -17,7 +17,10 @@ task("lint", [], function() {
 
     var options = nodeLintOptions();
 
-    lint.validateFileList(files.toArray(), options, {});
+    var passed = lint.validateFileList(files.toArray(), options, {});
+    if (!passed) {
+        fail("lint failed.");
+    }
 });
 
 desc("Integrate");
