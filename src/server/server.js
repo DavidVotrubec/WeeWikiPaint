@@ -3,4 +3,8 @@
  * Date: 6.10.12
  */
 
-console.log("I am server, man!");
+"use strict";
+
+exports.number = function(){
+    return 0;
+};

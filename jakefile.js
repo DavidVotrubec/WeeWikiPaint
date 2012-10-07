@@ -26,7 +26,7 @@ task("lint", [], function() {
 desc("Test everything");
 task("test", [], function(){
     // change 'minimal' to 'default' for more verbose error message
-    var reporter = require("nodeunit").reporters.minimal;
+    var reporter = require("nodeunit").reporters["default"];
     reporter.run(["src/server/_server_test.js"]);
 
 });
