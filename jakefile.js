@@ -5,7 +5,7 @@
 "use strict";
 
 desc("Build and test");
-task("default", ["lint"]);
+task("default", ["lint", "test"]);
 
 desc("Lint everything");
 task("lint", [], function() {
@@ -21,6 +21,11 @@ task("lint", [], function() {
     if (!passed) {
         fail("lint failed.");
     }
+});
+
+desc("Test everything");
+task("test", [], function(){
+    console.log("testing ");
 });
 
 desc("Integrate");
