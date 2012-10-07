@@ -25,7 +25,9 @@ task("lint", [], function() {
 
 desc("Test everything");
 task("test", [], function(){
-    console.log("testing ");
+    var reporter = require("nodeunit").reporters["default"];
+    reporter.run(["test"]);
+
 });
 
 desc("Integrate");
